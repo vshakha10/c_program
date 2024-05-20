@@ -1,0 +1,17 @@
+#include<stdio.h>
+void number()
+{
+	char n,i;
+	
+	for(i='A';i<='Z';++i)
+	{
+		printf("%c:%c\nt",i+32);
+	}
+	
+}
+
+int main()
+{
+	number();
+	return 0;
+}

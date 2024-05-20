@@ -1,0 +1,17 @@
+ #include<stdio.h>
+ int main()
+ {
+	 int a=5;
+	 int b=2;
+	 
+	 if(a>b)
+	 {
+		 printf("a is smallest");
+	 }
+	 else
+	 {
+		printf("b is smallest"); 
+	 }
+	 
+	 return 0;
+ }

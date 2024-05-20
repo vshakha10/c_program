@@ -1,0 +1,25 @@
+#include<stdio.h>
+int main()
+{
+	char str[100],str1[50];
+    int i,length=0,j;
+ 
+    printf("Enter the String: ");
+    scanf("%s", str);
+ 
+    for (i=0;str[i]!='\0';i++)
+	{	
+			length++;
+	}
+	printf("%s", length);
+	
+	
+	for (j=0;str1[j]!='\0';j++)
+	{	
+			length--;
+	}
+	printf("%s", length);
+ 
+    return 0;
+
+}
