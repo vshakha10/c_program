@@ -16,6 +16,9 @@ int new(int n)
 	
 }
 
+
+
+
 int main()
 {
 	int i;
